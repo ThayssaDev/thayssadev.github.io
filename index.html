@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thayssa Braga | Portfólio</title>
+    <meta name="description" content="Portfólio de Thayssa Braga, estudante de Análise e Desenvolvimento de Sistemas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <div class="container cabecalho__conteudo">
+            <a href="#inicio" class="logo">Thayssa<span>.dev</span></a>
+
+            <button class="menu-botao" aria-label="Abrir menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="menu">
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- INÍCIO -->
+        <section id="inicio" class="inicio">
+            <div class="container inicio__conteudo">
+                <div class="inicio__texto">
+                    <p class="inicio__saudacao">Olá, eu sou a</p>
+                    <h1>Thayssa Braga</h1>
+                    <p class="inicio__cargo">Desenvolvedora em formação</p>
+                    <p>Estudante de Análise e Desenvolvimento de Sistemas no SENAC. Gosto de transformar ideias em aplicações web simples, bonitas e que funcionam.</p>
+                    <div class="inicio__botoes">
+                        <a href="#projetos" class="botao">Ver projetos</a>
+                        <a href="#contato" class="botao botao--contorno">Fale comigo</a>
+                    </div>
+                </div>
+                <img src="foto.jpg" alt="Foto de Thayssa Braga" class="inicio__foto">
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="secao">
+            <div class="container">
+                <h2 class="secao__titulo">Sobre mim</h2>
+                <p class="sobre__texto">
+                    Comecei na tecnologia fazendo cursos de áreas diferentes até descobrir a programação.
+                    Hoje curso Análise e Desenvolvimento de Sistemas no SENAC, Desenvolvedor Full Stack Java na EBAC
+                    e Front-end na Origamid. Tenho inglês avançado e estou em busca de um estágio para aprender
+                    com um time e crescer na área.
+                </p>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="secao secao--destaque">
+            <div class="container">
+                <h2 class="secao__titulo">Habilidades</h2>
+                <h3 class="habilidades__titulo">Linguagens</h3>
+                <ul class="habilidades">
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Python</li>
+                    <li>C#</li>
+                    <li>C++</li>
+                    <li>SQL</li>
+                </ul>
+                <h3 class="habilidades__titulo">Tecnologias e ferramentas</h3>
+                <ul class="habilidades">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>.NET</li>
+                    <li>Bootstrap</li>
+                    <li>Git &amp; GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="secao">
+            <div class="container">
+                <h2 class="secao__titulo">Projetos</h2>
+                <div class="projetos">
+
+                    <article class="projeto">
+                        <h3>Controle de Gastos Residenciais</h3>
+                        <p>Sistema full stack para cadastrar pessoas, registrar receitas e despesas e consultar os totais.</p>
+                        <p class="projeto__tecnologias">C# · .NET · React · TypeScript · SQLite</p>
+                        <div class="projeto__links">
+                            <a href="https://github.com/ThayssaDev/controle-gastos-residenciais" target="_blank" rel="noopener">Código</a>
+                        </div>
+                    </article>
+
+                    <article class="projeto">
+                        <h3>Calculadora de Médias</h3>
+                        <p>Organiza atividades e notas em uma tabela, calcula a média e indica aprovação ou reprovação.</p>
+                        <p class="projeto__tecnologias">JavaScript · HTML · CSS</p>
+                        <div class="projeto__links">
+                            <a href="https://thayssadev.github.io/calculadora-medias/" target="_blank" rel="noopener">Site</a>
+                            <a href="https://github.com/ThayssaDev/calculadora-medias" target="_blank" rel="noopener">Código</a>
+                        </div>
+                    </article>
+
+                    <article class="projeto">
+                        <h3>Agenda Telefônica</h3>
+                        <p>Adiciona contatos a uma tabela dinâmica, formata o telefone enquanto você digita e bloqueia números repetidos.</p>
+                        <p class="projeto__tecnologias">JavaScript · HTML · CSS</p>
+                        <div class="projeto__links">
+                            <a href="https://agenda-telefonica-pearl.vercel.app/" target="_blank" rel="noopener">Site</a>
+                            <a href="https://github.com/ThayssaDev/agenda-telefonica" target="_blank" rel="noopener">Código</a>
+                        </div>
+                    </article>
+
+                    <article class="projeto">
+                        <h3>Thay Motors</h3>
+                        <p>Site responsivo de concessionária com menu mobile, carrossel de imagens e formulário com validação.</p>
+                        <p class="projeto__tecnologias">HTML · CSS · JavaScript · jQuery</p>
+                        <div class="projeto__links">
+                            <a href="https://thay-motors.vercel.app/" target="_blank" rel="noopener">Site</a>
+                            <a href="https://github.com/ThayssaDev/thay-motors" target="_blank" rel="noopener">Código</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="secao secao--destaque">
+            <div class="container contato">
+                <h2 class="secao__titulo">Vamos conversar?</h2>
+                <p>Estou aberta a oportunidades de estágio em desenvolvimento, dados e automação.</p>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="rodape__icones">
+            <a href="mailto:thayssa18ro@gmail.com" id="link-email" aria-label="Enviar e-mail para thayssa18ro@gmail.com" title="thayssa18ro@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/thayssa-braga" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/ThayssaDev" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p>© <span id="ano"></span> Thayssa Braga. Feito com HTML, CSS e JavaScript.</p>
+        <p class="aviso" id="aviso" role="status" hidden></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
